@@ -7,7 +7,11 @@ describe "Prime Factors Test" do
 	end
 
 	it "should return 2 when input is 2" do
-		plsql.prime_factors(2).should == [2] 
+		plsql.prime_factors(2).should == [2]
+	end
+
+	it "should return 3 when input is 3" do
+		plsql.prime_factors(3).should == [3]
 	end
 
 end
