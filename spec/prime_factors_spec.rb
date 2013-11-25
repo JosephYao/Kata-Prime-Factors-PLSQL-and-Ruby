@@ -14,4 +14,8 @@ describe "Prime Factors Test" do
 		plsql.prime_factors(3).should == [3]
 	end
 
+	it "should return 2,2 when input is 4" do
+		plsql.prime_factors(4).should == [2,2]
+	end
+
 end
